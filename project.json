@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.4.0",
-  "projectVersion": "1.0.119717828",
+  "projectVersion": "1.0.121510095",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -44,6 +44,12 @@
         "testCaseId": "bac5f373-c58b-4ba1-bb4f-a2cfc93c51e9",
         "testCaseType": "TestCase",
         "fileName": "TC_AcmeLogin.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d5761934-6865-45a1-8240-e09e52677bb0",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase1.xaml"
       }
     ],
     "modernBehavior": true

@@ -60,7 +60,6 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
@@ -87,14 +86,10 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke UIBankSequence workflow" sap:VirtualizedContainerService.HintSize="333.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UIBankSequence.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke AcmeLoginSequence workflow" sap:VirtualizedContainerService.HintSize="333.6,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="AcmeLoginSequence.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <OutArgument x:TypeArguments="x:String" x:Key="LoginMessage">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="OutputMessage" />
-          </OutArgument>
-          <OutArgument x:TypeArguments="x:String" x:Key="LoginScreenMessage">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="LoginScreenText" />
-          </OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="LoginMessage">[OutputMessage]</OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="LoginScreenMessage">[LoginScreenText]</OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
