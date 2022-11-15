@@ -9,7 +9,7 @@ pipeline {
 	        //Orchestrator Services
 	        UIPATH_ORCH_URL = "https://cloud.uipath.com/"
 	        UIPATH_ORCH_LOGICAL_NAME = "rohini_uipath_nov2022"
-	        UIPATH_ORCH_TENANT_NAME = "Default"
+	        UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
 	        UIPATH_ORCH_FOLDER_NAME = "Shared"
 	    }
 	
